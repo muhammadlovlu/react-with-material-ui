@@ -7,20 +7,19 @@ import React from 'react';
 import './App.css';
 import Dashboard from './Components/Dashboard/Dashboard';
 import Signup from './Components/Signup/SignUp';
-
-
-
-
-
+import Blog from './Components/Blog/Blog';
 
 function App() {
   return (
     <div className="App">
-   
-
 
 <Dashboard></Dashboard>
-{/* <Signup></Signup> */}
+<Blog></Blog>
+<Signup></Signup>
+
+    
+      
+     
     </div>
   );
 }
